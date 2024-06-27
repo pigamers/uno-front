@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': "url('/assets/hero.png')"
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         plusjakarta: ["Plus Jakarta Sans", "sans-serif"],
