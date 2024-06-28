@@ -1,4 +1,4 @@
-export default function Hero(params) {
+export default function Hero() {
     return (
         <>
             <section>
@@ -16,7 +16,6 @@ export default function Hero(params) {
                         </div>
                     </div>
                 </div>
-
             </section>
         </>
     )
