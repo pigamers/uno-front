@@ -52,7 +52,7 @@ export default function Services() {
                         <h2 className="text-[#292929] font-semibold py-4 text-xl mt-3">Clients</h2>
                     </div>
                 </div>
-                <div className="relative px-7 pt-24">
+                <div className="relative px-7 pt-24 mb-10">
                     <div className="flex flex-col lg:flex-row gap-5">
                         {/* services div */}
                         <div className="w-full lg:w-1/2 px-4 lg:px-12 text-center">

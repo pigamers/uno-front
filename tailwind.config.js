@@ -8,7 +8,8 @@ export default {
     extend: {
       backgroundImage: {
         'hero': "url('/assets/hero.png')",
-        'guides': "url('/assets/guides.png')"
+        'guides': "url('/assets/guides.png')",
+        'footpat': "url('/assets/footpat.png')"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

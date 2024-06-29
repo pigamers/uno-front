@@ -1,4 +1,5 @@
 import Careers from "./components/Careers"
+import Footer from "./components/Footer"
 import Guides from "./components/Guides"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
@@ -11,8 +12,9 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Guides />
-      <Careers />
+      {/* <Guides /> */}
+      {/* <Careers /> */}
+      <Footer />
     </div>
     </>
   )
