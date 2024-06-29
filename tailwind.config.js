@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('/assets/hero.png')"
+        'hero': "url('/assets/hero.png')",
+        'guides': "url('/assets/guides.png')"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

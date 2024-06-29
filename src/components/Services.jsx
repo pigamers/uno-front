@@ -33,7 +33,6 @@ export default function Services() {
                             <img src="/assets/gingerlogo.png" className="h-[66px] w-[219px] lg:w-[290px] lg:h-[87px]" />
                         </li>
                     </ul>
-
                 </div>
                 <div className="relative grid grid-cols-2 place-items-center mt-32 py-12 lg:flex justify-evenly items-center font-montserrat select-none">
                     <div>
