@@ -1,13 +1,19 @@
 export default function Guides() {
     return (
         <>
-            <div>
-                <div className="relative top-32 h-[773px] bg-no-repeat bg-center bg-guides select-none">
-                    <div className="h-full w-full">
-                        <h1 className="absolute">
-                            Olvera Guides
-                        </h1>
-                    </div>
+            <div className="relative h-[773px] bg-guides bg-no-repeat bg-center bg-contain p-20">
+                <div className="px-5">
+                    <h2 className="text-3xl text-white font-plusjakarta font-normal lg:relative lg:top-40 lg:left-0">
+                        Olvera Guides
+                    </h2>
+                    <h2 className="text-3xl text-white text-right font-plusjakarta font-normal lg:relative lg:top-64 lg:right-0">
+                        View More
+                        <div className="">
+                        </div>
+                    </h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
                 </div>
             </div>
         </>
