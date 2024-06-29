@@ -1,3 +1,4 @@
+import Careers from "./components/Careers"
 import Guides from "./components/Guides"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Services />
       <Guides />
+      <Careers />
     </div>
     </>
   )
