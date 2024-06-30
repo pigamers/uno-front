@@ -9,7 +9,8 @@ export default {
       backgroundImage: {
         'hero': "url('/assets/hero.png')",
         'guides': "url('/assets/guides.png')",
-        'footpat': "url('/assets/footpat.png')"
+        'footpat': "url('/assets/footpat.png')",
+        'custom-gradient': 'linear-gradient(269.9deg, rgba(0, 0, 0, 0) 0.95%, rgba(0, 0, 0, 0.96) 101.07%)',
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -17,7 +18,8 @@ export default {
         oswald: ["Oswald", "sans-serif"],
         archivo: ["Archivo", "sans-serif"],
         montserrat: ["Montserrat Alternates", "sans-serif"],
-      }
+      },
+      
     }
   },
   plugins: [],
