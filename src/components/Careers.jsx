@@ -33,16 +33,52 @@ export default function Careers() {
                     <div className="w-full bg-pink-gradient absolute mt-1/2 inset-0 z-1"></div>
                     <img src="/assets/Vector.png" className="absolute mt-60 z-10"/>
                 </div> */}
-                <div className="mt-32 bg-white ">
+                <div className="mt-20 bg-white ">
                     <h1 className="text-center text-4xl font-plusjakarta font-bold">What our clients say about us</h1>
-                    <div className="mt-42 flex justify-center items-center">
-                        <img src="/assets/quotes.png"/>
-                        <div className="bg-[#C2278E] h-52 w-52 mb-20 rounded-md text-white py-7 px-3">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                            <div>
-
+                    
+                <div className="flex mt-20">
+                    <div className=" flex justify-center items-center">
+                        <div className="bg-[#C2278E] h-fit w-9/12 mb-20 mt-10 rounded-md text-white px-10 py-6">
+                            <img src="/assets/qoutes.png" className="mt-2"/>
+                            <p className="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            <img src="/assets/qouteReverse.png" className="ml-56 "/>
+                            <div className="flex items-center justify-start gap-x-4 mb-3">
+                                <img src="/assets/Icon.png" className="w-14 mt-5"/>
+                                <div className="flex flex-col items-start justify-start mt-5">
+                                    <p className="font-poppins text-white font-bold">Aaron Boby</p>
+                                    <p className="text-[#C5E9FB] mt-2 font-poppins text-[14px]">2 November 2021</p>
+                                </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                        <div className="bg-[#C2278E08] h-fit w-9/12 mb-20 mt-10 rounded-md text-[#5E84A1] px-10 py-7">
+                            <p className="mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            <div className="flex items-center justify-start mt-6 gap-x-4 mb-3">
+                                <img src="/assets/Icon2.png" className="w-14 mt-10"/>
+                                <div className="flex flex-col items-start justify-start mt-10">
+                                    <p className="font-poppins text-[#1E5068] font-bold">Aaron Boby</p>
+                                    <p className="text-[#5E84A1] font-poppins text-[14px]">2 November 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                        <div className="bg-[#C2278E08] h-fit w-9/12 mb-20 mt-10 rounded-md text-[#5E84A1] px-10 py-7">
+                            <p className="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            <div className="flex items-center justify-start gap-x-4 mt-5 mb-3">
+                                <img src="/assets/Icon2.png" className="w-14 mt-10"/>
+                                <div className="flex flex-col items-start justify-start mt-10">
+                                    <p className="font-poppins text-[#1E5068] font-bold">Dion Channing</p>
+                                    <p className="text-[#5E84A1] font-poppins text-[14px]">22 August 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     </div>
                 </div>
             </div>
