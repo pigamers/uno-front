@@ -1,7 +1,7 @@
 export default function Careers() {
     return (
         <>
-            <div>
+            <div className="relative">
                 <div className="relative mb-10">
                     <div className="flex flex-col  lg:flex-row gap-5">
                         {/* services div */}
@@ -25,6 +25,23 @@ export default function Careers() {
                         </div>
                         <div className="w-full bg- lg:w-1/2 h-[752px] bg-yellow-100 ml-10 -mt-10">
                           <img src="/assets/servicespic.png" className="h-full w-full bg-contain"/>
+                        </div>
+                    </div>
+                </div>
+                {/* <div className="flex justify-center mb-20">
+                    <img src="/assets/services2.png" className="absolute"/>
+                    <div className="w-full bg-pink-gradient absolute mt-1/2 inset-0 z-1"></div>
+                    <img src="/assets/Vector.png" className="absolute mt-60 z-10"/>
+                </div> */}
+                <div className="mt-32 bg-white ">
+                    <h1 className="text-center text-4xl font-plusjakarta font-bold">What our clients say about us</h1>
+                    <div className="mt-42 flex justify-center items-center">
+                        <img src="/assets/quotes.png"/>
+                        <div className="bg-[#C2278E] h-52 w-52 mb-20 rounded-md text-white py-7 px-3">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            <div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
