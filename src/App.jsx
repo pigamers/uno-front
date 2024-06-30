@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Guides />
+      {/* <Guides />
       <Careers />
-      <Footer />
+      <Footer /> */}
     </div>
     </>
   )
